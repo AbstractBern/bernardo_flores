@@ -1,1 +1,5 @@
 /* Stylesheet for index.css */
+
+footer {
+    position: fixed
+}
