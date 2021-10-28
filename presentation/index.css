@@ -1,6 +1,6 @@
 /* Stylesheet for index.css */
 
-footer {
+#page-footer {
     /* (A1) FIXED AT BOTTOM */
     position: fixed;
     bottom: 0;
