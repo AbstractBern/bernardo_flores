@@ -16,13 +16,14 @@
     align-items: center;
     justify-content: center;
 }
-.th, td {
+.th {
     border-collapse: collapse;
-  }
+} 
+.td {
+    border-collapse: collapse;
+    padding:10px;
+}
 .table {
     border-collapse: collapse;
     width: 100%;   
-}
-.footer-cpw {
-    text-align: center;
 }
