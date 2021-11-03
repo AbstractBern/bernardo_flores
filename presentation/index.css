@@ -17,10 +17,9 @@ footer {
     justify-content: center;
 }
 th {
-    border-collapse: collapse;
+    padding: 1px;
 } 
 td {
-    border-collapse: collapse;
     padding:10px;
 }
 table {
