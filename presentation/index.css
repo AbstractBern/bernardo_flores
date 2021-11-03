@@ -1,5 +1,5 @@
 /* Stylesheet for index.css */
-header {
+.header {
     background-color: blue;
 }
 footer {
@@ -25,4 +25,12 @@ td {
 table {
     border-collapse: collapse;
     width: 100%;   
+}
+.back-article {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+}
+.front-article {
+    background: white;
 }
