@@ -21,4 +21,5 @@ footer {
 .foot-style {
     width:100;
     text-align: center;
+    column-span: 100%;
 }
