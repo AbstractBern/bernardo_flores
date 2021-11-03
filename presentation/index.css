@@ -18,3 +18,7 @@ footer {
     border-collapse: collapse;
     width: 100%;   
 }
+.foot-style {
+    width:100;
+    text-align: center;
+}
