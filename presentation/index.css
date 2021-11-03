@@ -1,6 +1,8 @@
 /* Stylesheet for index.css */
-
-footer {
+.header {
+    background-color: blue;
+}
+.footer {
     /* FIXED AT BOTTOM */
     position: fixed;
     bottom: 0;
@@ -14,12 +16,13 @@ footer {
     align-items: center;
     justify-content: center;
 }
+.th, td {
+    border-collapse: collapse;
+  }
 .table {
     border-collapse: collapse;
     width: 100%;   
 }
-.foot-style {
-    width:100;
+.footer-cpw {
     text-align: center;
-    column-span: 100%;
 }
