@@ -1,8 +1,8 @@
 /* Stylesheet for index.css */
-.header {
+header {
     background-color: blue;
 }
-.footer {
+footer {
     /* FIXED AT BOTTOM */
     position: fixed;
     bottom: 0;
@@ -16,13 +16,14 @@
     align-items: center;
     justify-content: center;
 }
-.th, td {
+th {
     border-collapse: collapse;
-  }
-.table {
+} 
+td {
+    border-collapse: collapse;
+    padding:10px;
+}
+table {
     border-collapse: collapse;
     width: 100%;   
-}
-.footer-cpw {
-    text-align: center;
 }
