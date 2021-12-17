@@ -1,4 +1,8 @@
 /* Stylesheet for index.css */
+html {
+    overflow: hidden;
+    height: 100%;
+}
 header {
     /* FIXED AT BOTTOM */
     position: fixed;
@@ -80,5 +84,14 @@ img {
 }
 p {
     text-align: justify;
-    font-size: 25px;
+    color: white;
+}
+#profile {
+    background-color: black;
+    left: 0;
+    margin-top: 112px;
+    width: 100vw;
+    float: left;
+    margin-left: -8px;
+    height:450px;
 }
