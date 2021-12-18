@@ -3,6 +3,10 @@ html {
     overflow-x: hidden;
     height: 100%;
 }
+body {
+    display: flex;
+    flex-direction: column;
+}
 header {
     /* FIXED AT BOTTOM */
     top: 0;
@@ -22,7 +26,6 @@ footer {
     bottom: 0;
     left: 0;
     margin-left: -8px;
-    position: absolute;
     /* DIMENSIONS */
     width: 100vw;
     margin-bottom: -220px;
@@ -96,7 +99,7 @@ img {
     left: 0;
     margin-top: 100px;
     width: 100vw;
-    height:115vh;
+    height:100vh;
     float: left;
     margin-left: -8px;
 }
