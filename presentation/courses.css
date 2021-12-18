@@ -1,31 +1,31 @@
 /* Stylesheet for index.css */
 html {
-    overflow: hidden;
+    overflow-x: hidden;
     height: 100%;
 }
 header {
     /* FIXED AT BOTTOM */
-    position: fixed;
     top: 0;
     left: 0;
     background-color: navy;
-
-    width: 100%;
+    position: absolute;
+    width: 100vw;
     padding: 0 5px;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: navy;
     color: orangered;
 }
 footer {
     /* FIXED AT BOTTOM */
-    position: fixed;
     bottom: 0;
     left: 0;
+    margin-left: -8px;
+    position: absolute;
     /* DIMENSIONS */
-    width: 100%;
+    width: 100vw;
+    margin-bottom: -220px;
     padding: 0 5px;
     /*  CENTER TEXT */
     display: flex;
@@ -34,19 +34,27 @@ footer {
     background-color: navy;
     color: orangered;
 }
-td {
-    border-collapse: collapse;
-}
+
 .column-spaces {
     text-align: center;
     padding-bottom: 5px;
 }
-tr {
-    border-collapse: collapse;
-}
+
 table {
-    border-collapse: collapse;
-    width: 100%;
+    width: 100vw;
+}
+#table-format {
+    text-align: center;
+}
+div.tab table {
+    margin-top:12px;
+    width: 50vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.tab th, div.tab tr, div.tab td{
+    border: 1px solid orangered;
 }
 .separate {
     margin-top: 110px;
@@ -86,9 +94,9 @@ img {
     color: white;
     background-color: black;
     left: 0;
-    margin-top: 112px;
+    margin-top: 100px;
     width: 100vw;
+    height:115vh;
     float: left;
     margin-left: -8px;
-    height:450px;
 }
