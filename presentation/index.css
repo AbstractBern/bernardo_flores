@@ -24,21 +24,14 @@ header {
     background-color: navy;
     color: orangered;
 }
-footer {
-    /* FIXED AT BOTTOM */
-    bottom: 0;
+.footer {
+    position: fixed;
     left: 0;
-    margin-left: -8px;
-    /* DIMENSIONS */
-    width: 100vw;
-    margin-bottom: -220px;
-    padding: 0 5px;
-    /*  CENTER TEXT */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    bottom: 0;
+    width: 100%;
     background-color: navy;
-    color: orangered;
+    color: white;
+    text-align: center;
 }
 
 td {
