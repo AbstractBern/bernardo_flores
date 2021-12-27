@@ -1,37 +1,43 @@
 /* Stylesheet for index.css */
-html {
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
     overflow-x: hidden;
-    height: 100%;
-    overflow: hidden;
-}
-body {
-    display: flex;
-    flex-direction: column;
 }
 header {
     /* FIXED AT BOTTOM */
-    position: fixed;
     top: 0;
     left: 0;
+    right: 0;
+    margin: 0;
     background-color: navy;
-
-    width: 100%;
-    padding: 0 5px;
-
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: navy;
     color: orangered;
 }
-.footer {
-    position: fixed;
-    left: 0;
+footer {
     bottom: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0;
     background-color: navy;
-    color: white;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orangered;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+#content {
+    height:76.8%;
+    margin:0;
+    top:0;
 }
 
 td {
@@ -48,34 +54,23 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-.separate {
-    margin-top: 110px;
-    border-style: solid;
-    left: 0;
-    right: 0;
-    position:absolute;
-    border-color: black;
-    width: 100%;
-    border-collapse: collapse;
-}
-
 .front-article {
-    background: white;
+    background:peachpuff;
 }
-a:link{
+a:link {
     
     color: orangered;
 }
-a:visited{
+a:visited {
     color: orange
+}
+img {
+    float: right; 
+    margin: 5px;
 }
 .center-piece {
     width: 40%;
-    background-color:rosybrown;
+    background-color:black;
     margin: 0;
     padding: 15px;
-}
-img {
-    float: left; 
-    margin: 5px;
 }

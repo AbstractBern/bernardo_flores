@@ -48,7 +48,8 @@ table {
     width: 100vw;
 }
 #table-format {
-    text-align: left;
+    text-align: center;
+    width: 20%;
 }
 table.tab {
     width: 50vw;
@@ -56,8 +57,14 @@ table.tab {
     margin-left: auto;
     margin-right: auto;
 }
+table.tab th {
+    height: 10%;
+}
 table.tab th, table.tab tr, table.tab td{
     border: 1px solid orangered;
+}
+.alignTop {
+    vertical-align: top;
 }
 
 a:link{

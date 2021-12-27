@@ -1,36 +1,47 @@
-/* Stylesheet for index.css */
-html {
-    height: 100%;
-    width:100;
+/* Stylesheet for about_me.css */
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
     overflow-x: hidden;
 }
-
-#header {
+header {
     /* FIXED AT BOTTOM */
     top: 0;
     left: 0;
     right: 0;
+    margin: 0;
     background-color: navy;
-    padding: 0 5px;
-
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: navy;
     color: orangered;
 }
-#footer {
+footer {
     bottom: 0;
     left: 0;
     right: 0;
+    margin: 0;
     background-color: navy;
-    padding: 0 5px;
-
     display: flex;
     align-items: center;
     justify-content: center;
     color: orangered;
 }
-
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+.content {
+    background-color: black;
+    color: white;
+    display: table;
+    height: 74.64%;
+    margin: 0;
+    top: 0;
+    padding: 1px 20px;
+}
 .column-spaces {
     text-align: center;
     padding-bottom: 5px;
@@ -47,41 +58,7 @@ a:link{
 a:visited{
     color: orange
 }
-
 img {
     float: left; 
     margin: 5px;
-}
-
-#about_me {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    text-align: justify;
-    color: white;
-    height:100%;
-    background-color: black;
-}
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .main{
-      width: 100%;
-    }
-}
-* {
-    box-sizing: border-box;
-}
-.main {
-    float: left;
-    width:100%;
-    height:72.5vh;
-    padding: 0 20px;
-    background-color: black;
-
-    top: 0;
-    right: 0;
-    left: 0;
-    text-align: justify;
-    color: white;
 }
